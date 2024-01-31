@@ -2,6 +2,7 @@ Homework 1
 Daniel Shtarker - 207362393
 
 Overview -----------------------------------------------------------------------------------
+
 This Java program implements a simple banking system comprising three account types: 
 PremiumAccount, BasicAccount, and StandardAccount. These account classes adhere to 
 the IAccount interface, defining common banking functionalities like deposit, withdrawal, 
@@ -9,6 +10,7 @@ and balance retrieval. Additionally, the program introduces the Bank class, impl
 the IBank interface, which acts as a centralised manager for multiple accounts.
 
 Account Classes ----------------------------------------------------------------------------
+
 The account classes share commonalities in their implementation:
 
 
@@ -29,6 +31,7 @@ A private method, UpdateCurrentBalance, is responsible for modifying the
 CurrentBalance after different transactions, ensuring encapsulation of balance updates.
 
 Unique Features in Each Account Class ------------------------------------------------------
+
 - PremiumAccount:
 No credit or withdrawal limit.
 The Withdraw method directly returns the requested amount and updates the CurrentBalance.
@@ -44,6 +47,7 @@ The Withdraw method enforces withdrawal restrictions based on the credit
 limit and the current account balance.
 
 Bank Class ---------------------------------------------------------------------------------
+
 The Bank class manages a collection of accounts, providing functionalities 
 outlined in the IBank interface:
 
@@ -65,6 +69,7 @@ Identify accounts with negative balances or balances exceeding a specified amoun
 
 
 Main Class Integration -------------------------------------------------------------------------
+
 The Main class exemplifies the program's functionality by creating instances 
 of different account types, opening accounts in the bank, executing transactions, 
 and querying account information. It showcases the seamless interaction between the 
