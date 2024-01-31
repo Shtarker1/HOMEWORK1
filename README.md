@@ -1,3 +1,6 @@
+************** ALL CLASSES AND INTERFACES ARE IN THE SRC FOLDER **************
+
+
 Homework 1
 Daniel Shtarker - 207362393
 
